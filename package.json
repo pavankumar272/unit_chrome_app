@@ -1,6 +1,6 @@
 {
   "name": "unit_chrome_app",
-
+"homepage":"https://pavankumar272.github.io/unit_chrome_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
