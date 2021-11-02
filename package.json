@@ -1,6 +1,6 @@
 {
   "name": "unit_chrome_app",
-  "homepage":"https://pavankumar272.github.io/unit_chrome_app",
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
